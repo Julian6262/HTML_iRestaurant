@@ -21,6 +21,8 @@ body {
     justify-content: space-between;
     align-items: center;
     box-shadow: 0 0 16px rgba(38, 38, 38, 0.16);
+    background-color: white;
+    z-index: 2;
 }
 
 nav a {
@@ -120,5 +122,109 @@ input[type="search"]::-webkit-search-cancel-button {
     opacity: 1;
     transition: 0.3s;
 }
+
+h1 {
+    margin-top: 57px;
+    font-weight: 400;
+    font-size: 22px;
+}
+
+.card {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    text-decoration: none;
+    color: black;
+}
+
+.card:hover {
+    background-color: rgba(231, 231, 231, 0.77);
+    transition: 0.2s;
+}
+
+.card:active {
+    background-color: rgb(218, 218, 218);
+    transition: 0.2s;
+}
+
+.card-content {
+    margin-top: 6px;
+    font-size: 14px;
+    color: #626262;
+}
+
+.card-time {
+    margin-top: 6px;
+    margin-bottom: 20px;
+    font-size: 13px;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns:  1fr 1fr 1fr;
+    grid-gap: 14px;
+}
+
+.card img {
+    margin-bottom: 16px;
+    width: 100%;
+}
+
+/*FOOTER*/
+footer {
+    background: #262626;
+    color: rgba(255, 255, 255, 0.86);
+}
+
+.footer {
+    padding-top: 56px;
+    margin-right: 91px;
+    margin-left: 81px;
+    padding-bottom: 40px;
+}
+
+.footer p {
+    margin-top: 23px;
+}
+
+.footer-grid a {
+    display: block;
+    margin-top: 23px;
+    color: rgba(255, 255, 255, 0.86);
+    text-decoration: none;
+}
+
+footer a:hover {
+    color: #009600;
+    transition: 0.3s;
+}
+
+.footer-grid {
+    display: grid;
+    grid-template-columns:  1fr 1fr 1fr;
+    grid-gap: 14px;
+    margin-top: 41px;
+    padding-top: 20px;
+    border-top: 1px solid rgba(255, 255, 255, 0.5);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.5);
+    height: 200px;
+    font-size: 13px;
+}
+
+.footer-flex-logo {
+    display: flex;
+    justify-content: center;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.50);
+}
+
+.grid-bottom {
+    display: grid;
+    padding-top: 17px;
+    grid-template-columns:  1fr 1fr 1fr;
+    font-size: 11px;
+}
+
 
 
