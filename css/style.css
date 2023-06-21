@@ -17,6 +17,7 @@ main {
     margin-top: 129px;
     margin-right: 91px;
     margin-left: 81px;
+    transition: 0.5s;
 }
 
 .search {
@@ -84,129 +85,28 @@ h1 {
     width: 100%;
 }
 
-/*FOOTER*/
-footer {
-    background: #262626;
-    color: rgba(255, 255, 255, 0.86);
-}
-
-.footer {
-    padding-top: 56px;
-    margin-right: 91px;
-    margin-left: 81px;
-    padding-bottom: 40px;
-}
-
-.footer p {
-    margin-top: 23px;
-}
-
-.footer-grid a {
-    display: block;
-    margin-top: 23px;
-    color: rgba(255, 255, 255, 0.86);
-    text-decoration: none;
-}
-
-.icons {
-    display: flex;
-}
-
-.icons a {
-    margin-right: 10px;
-}
-
-footer a:hover {
-    color: #009600;
-    transition: 0.3s;
-}
-
-.select {
-    display: flex;
-    margin-top: 20px;
-    height: 40px;
-}
-
-.select .img {
-    display: flex;
-    width: 40px;
-    align-items: center;
-    justify-content: center;
-    background-color: #3B3B3B;
-}
-
-.select select {
-    width: 210px;
-    background-color: #3B3B3B;
-    color: white;
-    border: none;
-    outline: none;
-    cursor: pointer;
-}
-
-.footer-grid {
-    display: grid;
-    grid-template-columns:  1fr 1fr 1fr;
-    grid-gap: 14px;
-    margin-top: 41px;
-    padding-bottom: 41px;
-    padding-top: 20px;
-    border-top: 1px solid rgba(255, 255, 255, 0.5);
-    border-bottom: 1px solid rgba(255, 255, 255, 0.5);
-    font-size: 13px;
-}
-
-.footer-flex-logo {
-    display: flex;
-    justify-content: center;
-    padding-top: 40px;
-    padding-bottom: 40px;
-    border-bottom: 1px solid rgba(255, 255, 255, 0.50);
-}
-
-.grid-bottom {
-    display: grid;
-    padding-top: 17px;
-    grid-template-columns:  1fr 1fr 1fr;
-    font-size: 11px;
-}
-
-.bottom-square {
-    display: flex;
-    background-color: #59BD5A;
-    width: 60px;
-    height: 60px;
-    position: fixed;
-    right: 16px;
-    bottom: 24px;
-    border-radius: 2px;
-    align-items: center;
-    justify-content: center;
-}
-
-.bottom-square:hover {
-    background-color: #2a6c2b;
-    transition: background-color 0.2s;
-}
-
 /*MEDIA*/
 @media (max-width: 768px) {
     main {
         margin-right: 8px;
         margin-left: 8px;
+        transition: 0.5s;
     }
 
     .footer {
         margin-right: 8px;
         margin-left: 8px;
+        transition: 0.5s;
     }
 
     nav a {
         margin-left: 8px;
+        transition: 0.5s;
     }
 
     nav button {
         margin-right: 8px;
+        transition: 0.5s;
     }
 
     .grid {
@@ -221,6 +121,7 @@ footer a:hover {
 
     .enter {
         margin-right: 8px;
+        transition: 0.5s;
     }
 
     .grid {

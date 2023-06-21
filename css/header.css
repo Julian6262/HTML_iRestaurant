@@ -13,6 +13,7 @@
 
 nav a {
     margin-left: 81px;
+    transition: 0.5s;
 }
 
 nav button {
@@ -20,6 +21,7 @@ nav button {
     background-color: white;
     border: none;
     cursor: pointer;
+    transition: 0.5s;
 }
 
 .enter:hover {
@@ -48,10 +50,12 @@ nav a img:hover {
     line-height: 24px;
     font-weight: 600;
     margin: 16px 0;
+    transition: 0.5s;
 }
 
 .basket {
     margin-left: 27px;
+    transition: 0.5s;
 }
 
 @keyframes myAnim {
