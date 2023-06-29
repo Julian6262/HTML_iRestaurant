@@ -9,14 +9,14 @@ body {
 
 @font-face {
     font-family: "Roboto";
-    src: url("/fonts/Roboto-Regular.ttf");
+    src: url("../fonts/Roboto-Regular.ttf");
 }
 
 /*MAIN*/
 .img-top {
     margin-top: 72px;
     height: 364px;
-    background-image: url("/img/photo.png");
+    background-image: url("../img/photo.png");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
